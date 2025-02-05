@@ -1,0 +1,49 @@
+.navbar {
+    width: 95%;
+}
+
+/*-----------TITLE NAVBAR SECTION----------*/
+.navbar h1 {
+    cursor: pointer;
+    display: inline-block;
+}
+
+.navbar h1::before, .navbar h1::after {
+    content: '<';
+    position: relative;
+    right: 5px;
+    color: var(--decoration);
+}
+
+.navbar h1::after {
+    content: '/>';
+    left: 5px;
+}
+
+.navbar h1:hover::before {
+    animation: moveRight .6s infinite alternate ease-out;
+}
+
+.navbar h1:hover::after {
+    animation: moveLeft .6s infinite alternate ease-out;
+}
+
+@keyframes moveLeft {
+    from {
+        left: 5px;
+    }
+    to {
+        left: 10px;
+    }
+}
+
+@keyframes moveRight {
+    from {
+        right: 5px;
+    }
+    to {
+        right: 10px;
+    }
+}
+
+/*-----------MENU NAVBAR SECTION----------*/
