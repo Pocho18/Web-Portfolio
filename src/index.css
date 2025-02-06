@@ -37,3 +37,11 @@ h1, h2, h3 {
 p, a, span {
   font-family: 'Inter', sans-serif;
 }
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

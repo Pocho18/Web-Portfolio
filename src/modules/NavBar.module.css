@@ -2,6 +2,9 @@
     width: 95%;
     padding-inline: 20px;
     box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 /*-----------TITLE NAVBAR SECTION----------*/
@@ -49,3 +52,16 @@
 }
 
 /*-----------MENU NAVBAR SECTION----------*/
+.navbar ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.navbar ul li a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.navbar ul img {
+    width: 35px;
+}
