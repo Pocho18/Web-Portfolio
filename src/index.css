@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --color-background-900: #121212;
+    --color-background-800: #1E1E1E;
+    --color-light-100: #E0E0E0;
+    --color-light-200: #9E9E9E;
+    --color-primary: #BB86FC;
+    --color-secondary: #03DAC6;
+    --color-accent: #FF7597;
+}
+
+@layer utilities {
+    
+}
+
+@layer base {
+    :root {
+        color: #ffffff;
+        font-family: 'Outfit', sans-serif;
+    }
+    h1,h2,h3,h4,h5,h6 {
+        font-family: 'Inter', sans-serif;
+    }
+    code,pre {
+        font-family: 'Roboto Mono', monospace;
+    }
+
+    #cursor-bg {
+        background-image: radial-gradient(circle at center, rgba(25,25,25,.2), rgba(25,25,25,.5));    
+    }
+}
