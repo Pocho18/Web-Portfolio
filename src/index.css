@@ -18,7 +18,8 @@
 @layer base {
     :root {
         color: #ffffff;
-        font-family: 'Outfit', sans-serif;
+        font-family: 'Inter', sans-serif;
+        overflow-x: hidden;
     }
     h1,h2,h3,h4,h5,h6 {
         font-family: 'Inter', sans-serif;
@@ -28,6 +29,6 @@
     }
 
     #cursor-bg {
-        background-image: radial-gradient(circle at center, rgba(25,25,25,.2), rgba(25,25,25,.5));    
+        /*background-image: radial-gradient(circle at center, rgba(25,25,25,.2), rgba(25,25,25,.5));   */ 
     }
 }
